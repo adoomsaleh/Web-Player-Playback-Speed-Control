@@ -6,12 +6,7 @@
 // @updateURL    https://raw.githubusercontent.com/ZigZagT/Web-Player-Playback-Speed-Control/master/PlaybackSpeedControl.user.js
 // @description  Add playback speed, natural volume, and Picture-in-Picture controls to web players
 // @author       ZigZagT
-// @include      /^https?://[^/]*plex[^/]*/
-// @include      /^https?://[^/]*:32400/
-// @include      *://app.plex.tv/**
-// @include      *://plex.tv/**
-// @include      *://*.youtube.com/**
-// @match        *://*/*
+// @match        http://localhost:32400/*
 // @run-at       document-start
 // @grant        GM_setValue
 // @grant        GM_getValue
